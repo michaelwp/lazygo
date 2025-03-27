@@ -1,12 +1,13 @@
+// gojsonstruct package example
 package main
 
 import (
 	"fmt"
-	"github.com/michaelwp/lazygo/goJsonStruct"
+	gojsonstruct "github.com/michaelwp/lazygo/goJsonStruct"
 )
 
 func main() {
-	jsonConverter := goJsonStruct.NewGoJsonStruct()
+	jsonConverter := gojsonstruct.NewGoJSONStruct()
 
 	type User struct {
 		Name  string `json:"name"`
