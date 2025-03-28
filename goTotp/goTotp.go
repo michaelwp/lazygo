@@ -1,4 +1,6 @@
-package goTotp
+// Package gototp is a Go package for generating Time-based One-Time Passwords (TOTP) conforming to RFC 6238.
+// It supports multiple hash algorithms, including HMAC-SHA1, HMAC-SHA256, and HMAC-SHA512.
+package gototp
 
 import (
 	"crypto/hmac"

@@ -1,11 +1,6 @@
-/**********************************************************
-* 2024/07/05
-* Author: Michael Putong
-* This code free to use, share and modify
-* Author not responsible for any damage caused by this code
-***********************************************************/
-
-package goWatermark
+// Package gowatermark allows you to add customizable watermarks to images using the Go programming language.
+// It provides functionalities for positioning, repeating text, and adjusting font properties.
+package gowatermark
 
 import (
 	"fmt"

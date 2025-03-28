@@ -8,7 +8,7 @@ import (
 
 func main() {
 	num := int64(30)
-	converter := goBinaryConverter.NewBinaryConverter()
+	converter := gobinaryconverter.NewBinaryConverter()
 	binary := converter.ToBinary(num)
 	decimal, err := converter.ToDecimal(binary)
 	if err != nil {

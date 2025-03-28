@@ -1,4 +1,5 @@
-package goBinaryConverter
+// Package gobinaryconverter is a simple Go library for converting between decimal and binary numbers.
+package gobinaryconverter
 
 import (
 	"fmt"

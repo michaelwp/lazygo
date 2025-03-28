@@ -12,11 +12,11 @@ func main() {
 	timestamp := time.Now().Unix()
 
 	// define the variables
-	totp := goTotp.Totp{
+	totp := gototp.Totp{
 		Secret:    "rahasia",
 		Digits:    8,
 		Period:    15,
-		Algorithm: goTotp.SHA256,
+		Algorithm: gototp.SHA256,
 		T0:        0,
 	}
 

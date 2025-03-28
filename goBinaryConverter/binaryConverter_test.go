@@ -1,4 +1,4 @@
-package goBinaryConverter
+package gobinaryconverter
 
 import (
 	"testing"
