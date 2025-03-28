@@ -1,4 +1,4 @@
-module github.com/michaelwp/lazygo
+module github.com/michaelwp/lazygo/v3
 
 go 1.23.0
 
