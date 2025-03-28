@@ -1,5 +1,4 @@
 // Package gowatermark allows you to add customizable watermarks to images using the Go programming language.
-// It provides functionalities for positioning, repeating text, and adjusting font properties.
 package gowatermark
 
 import (

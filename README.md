@@ -28,7 +28,7 @@ Spend more time with your lover, not your computer! ❤️
 go get github.com/michaelwp/lazygo/v3
 ```
 
-Or you can install each library separately using (for more details read the readme in their respective folders):
+Or you can install each library separately. (for more details about this please read the readme in their respective folders)
 
 ```sh
 go get github.com/michaelwp/{library-name}
@@ -38,6 +38,15 @@ For example, to install `goJson`:
 
 ```sh
 go get github.com/michaelwp/goJson/v2
+```
+
+## 🔱 Usage
+### Import the Package
+
+First, import the package into your Go code:
+
+```go
+import "github.com/michaelwp/lazygo/v3/{library-name}"
 ```
 
 ## 📢 Contributing

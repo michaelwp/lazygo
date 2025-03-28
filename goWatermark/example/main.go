@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"image/color"
 
-	"github.com/michaelwp/lazygo/goWatermark"
+	"github.com/michaelwp/lazygo/v3/goWatermark"
 )
 
 func main() {
@@ -12,7 +12,7 @@ func main() {
 		&gowatermark.Watermark{
 			Image:      "input.jpg",
 			OutputFile: "output.jpeg",
-			Text:       "THIS-IS-WATERMARK",
+			Text:       "79995782-PTGLOBALPRADANASEJAHTERA-227",
 			Position: gowatermark.Position{
 				PosAY: 10,
 			},

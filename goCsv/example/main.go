@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/michaelwp/lazygo/goCsv"
+	"github.com/michaelwp/lazygo/v3/goCsv"
 )
 
 func main() {

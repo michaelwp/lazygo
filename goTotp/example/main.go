@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/michaelwp/lazygo/goTotp"
+	"github.com/michaelwp/lazygo/v3/goTotp"
 	"log"
 	"time"
 )

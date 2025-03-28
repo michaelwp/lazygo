@@ -8,7 +8,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/michaelwp/lazygo/goSemaphore"
+	"github.com/michaelwp/lazygo/v3/goSemaphore"
 	"sync"
 	"time"
 )
