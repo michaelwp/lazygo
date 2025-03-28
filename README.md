@@ -28,7 +28,7 @@ Spend more time with your lover, not your computer! ❤️
 go get github.com/michaelwp/lazygo/v3
 ```
 
-Or you can install each library separately using:
+Or you can install each library separately using (for more details read the readme in their respective folders):
 
 ```sh
 go get github.com/michaelwp/{library-name}
@@ -37,7 +37,7 @@ go get github.com/michaelwp/{library-name}
 For example, to install `goJson`:
 
 ```sh
-go get github.com/michaelwp/goJson
+go get github.com/michaelwp/goJson/v2
 ```
 
 ## 📢 Contributing

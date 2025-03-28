@@ -5,7 +5,7 @@ GoJson is a lightweight library designed to easily convert Go structs to JSON an
 ## 🚀 Features
 
 - **Convert struct to JSON** (`ToJSON`)
-- **Convert struct to pretty JSON** (`ToJSONIndent`)
+- **Convert struct to pretty JSON** (`ToJSONPretty`)
 - **Convert JSON to struct** (`ToStruct`)
 
 ## 📥 Installation
@@ -13,7 +13,7 @@ GoJson is a lightweight library designed to easily convert Go structs to JSON an
 To install the package, run:
 
 ```sh
-go get github.com/micahaelwp/goJson
+go get github.com/michaelwp/goJson/v2
 ```
 
 ## 📌 Usage
@@ -25,7 +25,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/michaelwp/goJson"
+	"github.com/michaelwp/goJson/v2"
 )
 
 func main() {
@@ -71,4 +71,4 @@ Contributions are welcome! Feel free to submit pull requests or open issues.
 
 ---
 
-Enjoy coding with **GoJsonStruct** – because working with JSON in Go should be effortless! 🚀
+Enjoy coding with **GoJson** – because working with JSON in Go should be effortless! 🚀
