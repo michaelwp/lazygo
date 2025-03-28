@@ -24,16 +24,20 @@ Spend more time with your lover, not your computer! ❤️
 
 ## 🛠 Installation
 
-Each library can be installed separately using:
-
 ```sh
-go get github.com/michaelwp/lazygo/{library-name}
+go get github.com/michaelwp/lazygo/v3
 ```
 
-For example, to install `goJsonStruct`:
+Or you can install each library separately using:
 
 ```sh
-go get github.com/michaelwp/lazygo/goJson
+go get github.com/michaelwp/{library-name}
+```
+
+For example, to install `goJson`:
+
+```sh
+go get github.com/michaelwp/goJson
 ```
 
 ## 📢 Contributing
