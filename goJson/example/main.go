@@ -1,13 +1,12 @@
-// gojsonstruct package example
 package main
 
 import (
 	"fmt"
-	gojsonstruct "github.com/michaelwp/lazygo/goJsonStruct"
+	gojson "github.com/michaelwp/goJson"
 )
 
 func main() {
-	jsonConverter := gojsonstruct.NewGoJSONStruct()
+	goJSON := gojson.NewGoJSON()
 
 	type User struct {
 		Name  string `json:"name"`
@@ -18,16 +17,16 @@ func main() {
 	user := User{Name: "Alice", Age: 30, Email: "alice@example.com"}
 
 	// Convert struct to JSON
-	jsonStr := jsonConverter.ToJSON(user)
+	jsonStr := goJSON.ToJSON(user)
 	fmt.Println(jsonStr) // Output: {"name":"Alice","age":30,"email":"alice@example.com"}
 
 	// Convert struct to pretty JSON
-	jsonPretty := jsonConverter.ToJSONIndent(user)
+	jsonPretty := goJSON.ToJSONPretty(user)
 	fmt.Println(jsonPretty)
 
 	// Convert json back to struct
 	var userStruct User
-	err := jsonConverter.ToStruct(jsonStr, &userStruct)
+	err := goJSON.ToStruct(jsonStr, &userStruct)
 	if err != nil {
 		fmt.Println("Error:", err)
 	} else {

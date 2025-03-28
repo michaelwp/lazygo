@@ -1,6 +1,8 @@
 # LazyGo - A Collection of Libraries for Lazy Go Programmers 🚀
 
-LazyGo is a set of libraries for lazy Go developers like me and you. This library can save your happy time and make you even happier—because now you have more time with your lover. Spend more time with your lover, not your computer! ❤️
+LazyGo is a set of libraries for lazy Go developers like me and you.
+This library can save your happy time and make you even happier—because now you have more time with your lover.
+Spend more time with your lover, not your computer! ❤️
 
 ## 📌 Libraries Included
 
@@ -31,7 +33,7 @@ go get github.com/micahelwp/lazygo/{library-name}
 For example, to install `goJsonStruct`:
 
 ```sh
-go get github.com/yourusername/lazygo/goJsonStruct
+go get github.com/yourusername/lazygo/goJson
 ```
 
 ## 📢 Contributing

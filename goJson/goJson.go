@@ -1,23 +1,24 @@
-// Package gojsonstruct v1.1.0
-package gojsonstruct
+// Package gojson is a lightweight library designed to easily convert Go structs to JSON and vice versa.
+// It provides simple methods to serialize and deserialize JSON data.
+package gojson
 
 import (
 	"encoding/json"
 	"fmt"
 )
 
-// GoJSONStruct interface
-type GoJSONStruct interface {
+// GoJSON interface
+type GoJSON interface {
 	ToJSON(v interface{}) string
 	ToStruct(jsonStr string, v interface{}) error
-	ToJSONIndent(v interface{}) string
+	ToJSONPretty(v interface{}) string
 }
 
-// ImplGoJSONStruct is a receiver
+// ImplGoJSONStruct struct
 type ImplGoJSONStruct struct{}
 
-// NewGoJSONStruct create new Go JSON instance
-func NewGoJSONStruct() GoJSONStruct {
+// NewGoJSON create new GoJSON instance
+func NewGoJSON() GoJSON {
 	return ImplGoJSONStruct{}
 }
 
@@ -30,8 +31,8 @@ func (j ImplGoJSONStruct) ToJSON(v interface{}) string {
 	return string(jsonData)
 }
 
-// ToJSONIndent converts any struct to a prettified JSON string.
-func (j ImplGoJSONStruct) ToJSONIndent(v interface{}) string {
+// ToJSONPretty converts any struct to a prettified JSON string.
+func (j ImplGoJSONStruct) ToJSONPretty(v interface{}) string {
 	jsonData, err := json.MarshalIndent(v, "", "  ")
 	if err != nil {
 		return "{}"
