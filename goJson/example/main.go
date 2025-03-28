@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	gojson "github.com/michaelwp/goJson"
+	gojson "github.com/michaelwp/lazygo/goJson"
 )
 
 func main() {
